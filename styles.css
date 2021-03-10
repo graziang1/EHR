@@ -1,0 +1,114 @@
+/* home screen */
+.navbar{
+  background-color: #F7F7F7;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.nav-link active{
+  color: #08D1B2
+}
+
+/* employee card */
+.card-text{
+  line-height: 0.4em;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  object-position: right; 
+  margin-bottom: 0px;
+}
+
+.card-body{
+  margin:25px;
+}
+
+/* rounded line page divider */
+hr.rounded {
+  border-top: 2px solid #08D1B2;
+  border-radius: 5px;
+}
+
+/* immunizations page */
+.immunization-checkboxes{
+  font-weight: bold;
+}
+
+/*login screen*/
+.header {
+  padding: 60px;
+  text-align: center;
+  background:#08D1B2;
+  color: white;
+  font-size: 30px;
+}
+
+.form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #08D1B2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* index home tiles */
+.btn {
+  background-color: #08D1B2;
+  color: #ffffff;
+  font-weight: bold;
+  width: 275px;
+  line-height: 200px;
+  text-align: center;
+  margin: 2px;
+}
+
+.home-tiles {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* forms */
+form {
+  width: 70%;
+  display: inline-block;
+  margin-left: 15%;
+  margin-right:15%;
+  background-color: #f1f1f1;
+  padding: 50px 100px 50px 100px;
+  border-radius: 8px;
+}
+
+input[type=text], input[type=password], input[type=date] {
+  background-color: #08D1B2;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+input[type=text], input[type=password], input[type=date] {
+  border: 2px solid grey;
+}
